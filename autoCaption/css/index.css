@@ -1,0 +1,320 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font: 400 1.125em/1.38 'Quattrocento Sans';
+  color: rgb(222, 222, 222);
+}
+
+a {
+	color: #94D1FE;
+	border-bottom: 1px solid #547DA0;
+}
+
+a:hover,
+a:focus {
+	color: #FCFF60;
+	border-bottom-color: transparent;
+}
+
+.widget {
+  float: left;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.widget-content {
+	font-size: 85%;
+}
+
+.widget-content li {
+	margin-bottom: 0.3em;
+}
+
+.content {
+  float: left;
+  clear: both;
+  width: 80.0309244791%;
+  margin: 30px 0 0 9.9821%;
+  padding-bottom: 50px;
+}
+
+.copyright {
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid rgb(252, 247, 216);
+  border-bottom: 1px solid rgb(252, 247, 216);
+  font: 400 0.889em/1.38 Quattrocento;
+  text-align: center;
+  color: rgb(126, 126, 126);
+}
+
+.darkbulb {
+  display: block;
+  float: left;
+  width: 90px;
+  height: auto;
+  overflow: hidden;
+}
+
+.description {
+  float: left;
+  clear: both;
+  margin-left: -0.00444%;
+  font: 0.889em/1.38 Quattrocento;
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  position: absolute;
+  top: 22px;
+  left: 26.5592447916%;
+  z-index: 2;
+  width: 372px;
+}
+
+.identity {
+  position: relative;
+  width: 480px;
+  height: 157px;
+  margin: 1px auto 0;
+}
+
+.image {
+  display: block;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.main {
+  float: left;
+  width: 100%;
+}
+
+.masthead {
+  padding: 6px 0;
+  position: relative;
+  float: left;
+  width: 100%;
+  border-top: 3px solid rgb(252, 247, 216);
+  border-bottom: 3px solid rgb(252, 247, 216);
+  background-image: -webkit-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(24, 24, 24) 30.952380952380953%, rgb(24, 24, 24) 72.38095238095238%, rgb(0, 0, 0) 100%);
+  background-image:    -moz-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(24, 24, 24) 30.952380952380953%, rgb(24, 24, 24) 72.38095238095238%, rgb(0, 0, 0) 100%);
+  background-image:      -o-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(24, 24, 24) 30.952380952380953%, rgb(24, 24, 24) 72.38095238095238%, rgb(0, 0, 0) 100%);
+  background-image:     -ms-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(24, 24, 24) 30.952380952380953%, rgb(24, 24, 24) 72.38095238095238%, rgb(0, 0, 0) 100%);
+  background-image:         linear-gradient(360deg, rgb(0, 0, 0) 0%, rgb(24, 24, 24) 30.952380952380953%, rgb(24, 24, 24) 72.38095238095238%, rgb(0, 0, 0) 100%);
+}
+
+.page {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1em 0 2em;
+}
+
+.post {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 425px;
+  margin-top: 11px;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(222, 222, 222);
+}
+
+.post p {
+  margin-bottom: 1em;
+}
+
+.post-title {
+  float: left;
+  margin-left: 0.02641%;
+  font: 700 1.444em/1.38 Quattrocento;
+  color: rgb(252, 247, 216);
+}
+
+.widget-title {
+  font: 700 1.111em/1.38 Quattrocento;
+  color: rgb(252, 247, 216);
+  margin-bottom: 0.5em;
+}
+
+._container {
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+._text {
+  float: left;
+  margin-left: -0.00444%;
+  font-size: 3.333em;
+  font-weight: 700;
+  line-height: 1.38;
+  color: rgb(255, 245, 219);
+}
+
+.image-1 {
+  margin-top: 19px;
+}
+
+.image-2 {
+  margin-top: 25px;
+}
+
+.widget .ad {
+	margin-top: 0.5em;
+	float: left;
+}
+
+@media(max-width: 600px) {
+  .widget .image,
+  .widget .ad {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .widget .ad  {
+  	margin-right: 1em;
+  }
+
+  .content .main {
+    width: 99.9642055253%;
+    margin-left: 0.02603%;
+  }
+
+  .header .description {
+    margin-left: 0;
+    font-size: 0.722em;
+  }
+
+  .identity .darkbulb {
+    width: 65px;
+    height: auto;
+  }
+
+  .identity .header {
+    top: 12px;
+    left: 23.1578947368%;
+    width: 300px;
+  }
+
+  .main .post-title {
+    margin-left: 0.02817%;
+  }
+
+  .masthead .identity {
+    width: 400px;
+    height: 120px;
+  }
+
+  .page .content {
+    margin-left: 9.97917%;
+  }
+
+  .header ._text {
+    margin-left: 0;
+    font-size: 2.778em;
+  }
+
+  .widget .image-1 {
+    position: relative;
+    z-index: 8;
+    width: 38.5278708795%;
+  }
+
+  .widget .image-2 {
+    clear: none;
+    width: 38.736129641%;
+    margin-left: 12.47926%;
+  }
+}
+
+@media(max-width: 400px) {
+  body {
+    font-size: 1.125em;
+  }
+
+  .widget .image {
+    width: 49.0457363205%;
+    height: auto;
+    margin-top: 8px;
+  }
+  
+  .widget .ad {
+  	width: 40%;
+    height: auto;
+  }
+
+  .header .description {
+    float: none;
+    clear: none;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .identity .darkbulb {
+    float: none;
+    width: 54px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .identity .header {
+    position: static;
+    top: auto;
+    left: auto;
+    right: auto;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .masthead .identity {
+    width: 64%;
+    height: auto;
+    margin-top: 6px;
+  }
+
+  .page .content {
+    margin-top: 16px;
+  }
+
+  .header ._text {
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.667em;
+    text-align: center;
+  }
+
+  .widget .image-1 {
+    position: relative;
+    z-index: 8;
+    margin-left: 0.02929%;
+  }
+
+  .widget .image-2 {
+    margin-left: 1.87436%;
+  }
+}
+
+.captioned-image {
+	box-sizing: border-box;
+	background: #444;
+	text-align: center;
+	padding: 0.5em;
+	margin-bottom: 1em;
+}
+
+.captioned-image .caption {
+	font-size: 76%;
+	font-family: 'Quattrocento', serif;
+}

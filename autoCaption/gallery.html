@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>Gallery</title>
+  <link href="http://fonts.googleapis.com/css?family=Quattrocento:400,700,400|Quattrocento+Sans:400,400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="body page-index clearfix">
+  <div class="page clearfix">
+    <div class="masthead">
+      <div class="identity clearfix">
+        <img class="darkbulb" src="images/bulb.png">
+        <div class="header clearfix">
+          <h1 class="_text">Bright Ideas</h1>
+          <h2 class="description">An Idea Can Change Your Life !!</h2>
+        </div>
+      </div>
+    </div>
+    <div class="content clearfix">
+      <div class="main clearfix">
+        <h2 class="post-title">Photo Gallery</h2>
+        <div class="post">
+          <p>Random Photos</p>
+          <p>
+        			<img src="images/gallery/bigsur.jpg" alt="Big Sur sunset" title="Sunset at Big Sur">
+        			<img src="images/gallery/lajolla.jpg" alt="La Jolla coastline" title="The coastline of La Jolla, outside San Diego">
+        			<img src="images/gallery/scripps-pier.jpg" alt="Scripps Pier" title="Scripps Pier, also in San Diego, at sunset">
+        			<img src="images/gallery/venice.jpg" alt="Venice" title="Venice Beach in Los Angeles">
+        			<img src="images/gallery/yosemite.jpg" alt="Yosemite" title="El Capitan and more at Yosemite">
+          </p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+<script src="js/jquery.autoImageCaption.js"></script>
+<script>
+$(document).ready(function() {
+	'use strict';
+	
+$('.post img')
+    .autoImageCaption({
+      'wrapper' : {
+        'tag' : 'figure',
+        'class': 'myCustomWrapperClass'
+      },
+      'caption' : {
+        'tag' : 'figcaption',
+        'class': 'myCustomCaptionClass'
+      },
+      bgColor: 'yellow',
+      color: 'black'
+    });
+
+});
+</script>
+</body>
+</html>
