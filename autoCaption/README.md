@@ -14,22 +14,22 @@ and initialize the plugins.It uses the **title** attribute of image tag and use 
 #### Default Html Structure created without any options
 
 ``` html
-	<div class="captioned-image">
+     <div class="captioned-image">
 	  <!-- you image tag  -->
 	  <img src="image_url" alt="La Jolla coastline" title="your image title">
 	  <span class="caption"></span>
-    </div>
+     </div>
 
 ```
 
 #### Options 
 
 **Options** | **Value**
-	--- 	|	 --- 
-  bgColor   |   image container background color code 
-  color     |   caption color code 
-  wrapper   |   {'tag' : HTML Element (ex: div, figure), 'class': 'class name of the whole img container' }
-  caption   | {'tag' : HTML Element (ex: span, figcaption), 'class': 'class name of the img caption container' }
+--- 	|   --- 
+bgColor   |   image container background color code 
+color     |   caption color code 
+wrapper   |   {'tag' : HTML Element (ex: div, figure), 'class': 'class name of the whole img container' }
+caption   | {'tag' : HTML Element (ex: span, figcaption), 'class': 'class name of the img caption container' }
 
   #### Example With options
 
@@ -46,14 +46,14 @@ and initialize the plugins.It uses the **title** attribute of image tag and use 
       			},
       			bgColor: 'yellow',
       			color: 'black'
-    	});
+    		});
   ```
 
   **Layout generated**
   ----------------------
   ```html
-  		<figure class="myCustomWrapperClass" style="background-color: yellow;">
-  			<img src="my_img_src" alt="my image" title="My caption">
-  			<figcaption class="myCustomCaptionClass" style="color: black;">My caption</figcaption>
-		</figure>
+	<figure class="myCustomWrapperClass" style="background-color: yellow;">
+		<img src="my_img_src" alt="my image" title="My caption">
+		<figcaption class="myCustomCaptionClass" style="color: black;">My caption</figcaption>
+	</figure>
   ```
