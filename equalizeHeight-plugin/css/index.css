@@ -1,0 +1,120 @@
+body {
+  background-color: rgb(112, 48, 48);
+  font: 300 1em/1.38 'Merriweather Sans';
+  color: rgb(251, 251, 251);
+}
+
+.stories p {
+  margin-bottom: 1em;
+}
+
+.copyleft {
+  margin: 0 auto;
+  font: 0.875em/1.38 Merriweather;
+  text-align: center;
+  color: rgb(227, 205, 164);
+}
+
+.main {
+  float: left;
+  clear: both;
+  width: 100%;
+  padding-bottom: 1.875em;
+  background-color: rgb(255, 255, 255);
+}
+
+.site-name {
+  float: left;
+  margin-left: 1.9987%;
+  font: 700 3.125em/1.38 Merriweather;
+  color: rgb(227, 205, 164);
+}
+
+.stories {
+  float: left;
+  clear: both;
+  width: 95.9993489583%;
+  margin-left: 2.08171%;
+  padding-top: 1em;
+}
+
+.story {
+  float: left;
+  width: 31.9854934924%;
+  padding: 0.75em 1em 1em;
+  border-radius: 0.375em;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(251, 251, 251);
+}
+
+.subheader {
+  float: left;
+  width: 100%;
+  background-color: rgb(227, 205, 164);
+}
+
+.tagline {
+  float: left;
+  margin: 0.071em 0 0 1.9987%;
+  padding-top: 1.143em;
+  padding-right: 1.143em;
+  padding-bottom: 1.143em;
+  font-style: italic;
+  font-size: 0.875em;
+  line-height: 1.38;
+  color: rgb(112, 48, 48);
+}
+
+._container {
+  float: left;
+  width: 100%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: rgb(112, 48, 48);
+}
+
+.story-1,
+.story-4 {
+  background-color: rgb(47, 52, 59);
+}
+
+.story-2,
+.story-5 {
+  margin-left: 1.99891%;
+  background-color: rgb(126, 130, 122);
+}
+
+.story-3,
+.story-6 {
+  margin-left: 1.99891%;
+  background-color: rgb(112, 48, 48);
+}
+
+._container-2 {
+  clear: both;
+  padding-right: 0.625em;
+  padding-left: 0.625em;
+}
+
+@media(max-width: 580px) {
+  .main {
+    padding-bottom: 1em;
+  }
+
+  .stories .story {
+    width: 100%;
+  }
+
+  .stories .story-2,
+  .stories .story-3,
+  .stories .story-5,
+  .stories .story-6 {
+    margin-top: 1em;
+    margin-left: 0;
+  }
+
+  ._container .site-name-1 {
+    font-size: 2.5em;
+  }
+}
