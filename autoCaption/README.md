@@ -2,10 +2,7 @@
 ----------------------
 
 A simple plugin to add caption to images. Just select all the images tag
-and initialize the plugins. if no image container is given by default 
-the plugin wraps the image in a **<div class="captioned-image">**
-and dynamically inject a **span** with class name **caption**.
-It uses the **title** attribute of image tag and use it as caption for the image.
+and initialize the plugins.It uses the **title** attribute of image tag and use it as caption for the image.
 
 ### How to use the plugin
 --------------------------
